@@ -2,7 +2,7 @@
 title: Hooks
 ---
 
-'Hooks' are app-wide functions you declare that SvelteKit will call in response to specific events, giving you fine-grained control over the framework's behaviour.
+'Hooks' are app-wide functions you declare that SvelteKit will call in response to specific events, giving you fine-grained control over the framework's behaviour. Hooks also allow you to run initialization code to run on startup which is useful for libraries like TypeORM or MicroORM.
 
 There are two hooks files, both optional:
 
